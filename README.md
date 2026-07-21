@@ -61,6 +61,21 @@ This repository provides a unified experimental framework for stress-testing the
 
 ---
 
+---
+
+## 🚀 Quick Start & Installation
+
+### 1. Environment Setup
+Clone the repository and recreate the exact Conda environment:
+
+`'bash
+git clone [https://github.com/YOUR_USERNAME/Benchmarking-Stress-Struc-Perturb-.git](https://github.com/YOUR_USERNAME/Benchmarking-Stress-Struc-Perturb-.git)
+cd Benchmarking-Stress-Struc-Perturb-
+
+# Create and activate environment from environment.yml
+conda env create -f environment.yml
+conda activate stress_strain_env
+
 ## Repository Structure
 
 ```text
@@ -77,6 +92,10 @@ Benchmarking-Stress-Struc-Perturb-/
 │   ├── 03_coordinate_matrix_scaling.ipynb
 │   └── 04_shell_fragmentation_memory_loss.ipynb
 └── src/                           <-- Core Python utility modules
+
+---
     ├── __init__.py
+
+
     ├── peeling.py                 <-- Residue-level peeling & water-stripping logic
     └── phoptnn_interface.py       <-- Wrapped model execution pipeline

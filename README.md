@@ -75,6 +75,7 @@ cd Benchmarking-Stress-Struc-Perturb-
 # Create and activate environment from environment.yml
 conda env create -f environment.yml
 conda activate stress_strain_env
+```
 
 ## Repository Structure
 

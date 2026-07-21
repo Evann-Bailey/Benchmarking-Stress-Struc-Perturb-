@@ -68,7 +68,7 @@ This repository provides a unified experimental framework for stress-testing the
 ### 1. Environment Setup
 Clone the repository and recreate the exact Conda environment:
 
-`'bash
+```bash
 git clone [https://github.com/YOUR_USERNAME/Benchmarking-Stress-Struc-Perturb-.git](https://github.com/YOUR_USERNAME/Benchmarking-Stress-Struc-Perturb-.git)
 cd Benchmarking-Stress-Struc-Perturb-
 

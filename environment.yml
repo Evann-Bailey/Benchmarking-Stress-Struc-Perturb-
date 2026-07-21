@@ -1,0 +1,19 @@
+name: stress_strain_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - scipy
+  - biopandas
+  - biotite
+  - propka
+  - jupyter
+  - ipykernel
+  - pip:
+    - hydride
+    - torch

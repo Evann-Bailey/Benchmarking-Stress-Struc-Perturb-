@@ -63,7 +63,7 @@ This repository provides a unified experimental framework for stress-testing the
 
 ---
 
-## 🚀 Quick Start & Installation
+## Quick Start & Installation
 
 ### 1. Environment Setup
 Clone the repository and recreate the exact Conda environment:
